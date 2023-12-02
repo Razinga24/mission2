@@ -1,0 +1,78 @@
+:root {
+    --main-color: rgb(38, 68, 108);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: var(--main-color);
+    text-align: center;
+}
+
+.text-style{
+    color: var(--main-color);
+    text-align: center;
+}
+
+form{
+    max-width: 350px;
+    border: 3px solid bisque;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px ;
+}
+
+form input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: unset;
+    border-bottom: 1px solid bisque;
+}
+form input + span{
+    position: relative;
+    top: -10px;
+    font-size: 0.8rem;
+}
+
+form button{
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    border: 0.5px solid var(--main-color);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    background: var(--main-color);
+    transition: 0.5s;
+}
+
+form button:hover{
+    color: var(--main-color);
+    background: white;
+}
+
+table{
+    min-width: 400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+thead{
+    background: var(--main-color);
+    color: white;
+}
+
+table td, table th{
+    text-align: center;
+    border: 1px solid var(--main-color);
+    padding: 5px;
+}
+
